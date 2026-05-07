@@ -1,4 +1,4 @@
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: pycrdt-store
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pycrdt-store/pycrdt_store-{{ version }}.tar.gz
-  sha256: 12a0e263b2c07eb18bbe7203c828b88ba953cb93094ad37d22aeb6c619df2ef0
+  sha256: 85f1f008fda5ca9140739b608de7d8612f5276fccd80af06689053640d541d77
 
 build:
   noarch: python
