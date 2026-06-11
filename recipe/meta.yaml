@@ -1,4 +1,4 @@
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: pycrdt-store
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pycrdt-store/pycrdt_store-{{ version }}.tar.gz
-  sha256: 85f1f008fda5ca9140739b608de7d8612f5276fccd80af06689053640d541d77
+  sha256: 10cb0a71b86e167735235b3ab82816015ba746a2e660bcb133adb67a8d5c8818
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
     - python >={{ python_min }}
     - anyio >=3.6.2,<5
     - sqlite-anyio >=0.2.3,<0.3.0
-    - pycrdt >=0.13.0,<0.14.0
+    - pycrdt >=0.14.0,<0.15.0
 
 test:
   requires:
